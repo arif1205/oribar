@@ -6,14 +6,21 @@ module.exports = {
 		"./utils/**/*.{js,ts,jsx,tsx}",
 	],
 	theme: {
-		colors: {
-			"light-purple": "#7879F1",
-			"main-bg": "#F6F9FF",
-			dark: "#0A142F",
-			// white: "#FFFFFF",
-			"header-purple-circle": "#7879F1",
+		extend: {
+			fontFamily: {
+				inter: "'Inter', sans-serif",
+				poppins: "'Poppins', sans-serif",
+			},
+			colors: {
+				"light-purple": "#7879F1",
+				"deep-light-purple": "#5846DF",
+				"dark-purple": "#3232AE",
+				"main-bg": "#F6F9FF",
+				dark: "#0A142F",
+				"dark-text": "#18191F",
+				"header-purple-circle": "#7879F1",
+			},
 		},
-		extend: {},
 	},
 	plugins: [],
 };

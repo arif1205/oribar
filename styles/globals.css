@@ -2,9 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+
+	html {
+		scroll-behavior: smooth;
+		overflow-x: hidden;
+	}
+
+	body {
+		margin: 0;
+		padding: 0;
+		@apply font-inter;
+	}
+}
+
+@layer components {
+}
+
 @layer utilities {
-	.header-bg {
-		background: rgba(242, 247, 255, 0.7);
-		backdrop-filter: blur(50px);
+	.banner-bg {
+		/* background: rgba(242, 247, 255, 0.7); */
+		/* backdrop-filter: blur(50px); */
+		background-image: url("../images/img/BG.png");
+		background-size: cover;
+		background-position: top right;
+	}
+
+	.banner-bg-mobile {
+		background-image: url("../images/img/BG-mobile.png");
+		background-size: cover;
+		background-position: top right;
 	}
 }
