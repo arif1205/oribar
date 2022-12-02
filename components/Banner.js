@@ -19,7 +19,7 @@ const Banner = () => {
 			</nav>
 			{/* banner content  */}
 			<div className='py-[20px] sm:pt-[70px] pl-5 sm:pl-[105px] pr-8 max-w-full w-[700px] relative z-10'>
-				<h1 className='font-[800] text-[28px] sm:text-[64px] leading-[38px] sm:leading-[78px] text-dark-text mb-4'>
+				<h1 className='font-[800] font-poppins text-[28px] sm:text-[64px] leading-[38px] sm:leading-[78px] text-dark-text mb-4'>
 					Track your bills <br /> with Oribar
 				</h1>
 				<p className='text-sm sm:text-[21px] leading-6 sm:leading-8 mb-[27px] text-black'>
