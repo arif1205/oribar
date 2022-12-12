@@ -19,16 +19,18 @@ const Footer = () => {
 				{/* links  */}
 				<div className='row-span-1 row-start-1 sm:row-span-3 sm:row-start-1 col-span-4 sm:col-span-1'>
 					<h3 className='uppercase font-bold mb-4 text-sm sm:text-base'>
-						componay
+						company
 					</h3>
 					<div className='flex flex-col gap-2 sm:gap-4 text-white/80 text-[13px] sm:text-sm'>
-						<Link href='/'>
+						<Link
+							href='https://www.oribar.com/privacy-policy'
+							target={"_blank"}>
 							<span className='hover:text-white transition'>Security</span>
 						</Link>
-						<Link href='/'>
+						<Link href='https://www.oribar.com/FAQs' target={"_blank"}>
 							<span className='hover:text-white transition'>FAQ&#39;s</span>
 						</Link>
-						<Link href='/'>
+						<Link href='https://www.oribar.com/contact-us' target={"_blank"}>
 							<span className='hover:text-white transition'>Contact Us</span>
 						</Link>
 					</div>
@@ -39,12 +41,14 @@ const Footer = () => {
 						Legal
 					</h3>
 					<div className='flex flex-col gap-2 sm:gap-4 text-white/80 text-[13px] sm:text-sm'>
-						<Link href='/'>
+						<Link
+							href='https://www.oribar.com/privacy-policy'
+							target={"_blank"}>
 							<span className='hover:text-white transition'>
 								Privacy Policy
 							</span>
 						</Link>
-						<Link href='/'>
+						<Link href='https://www.oribar.com/terms-of-use' target={"_blank"}>
 							<span className='hover:text-white transition'>Terms of Use</span>
 						</Link>
 					</div>

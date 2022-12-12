@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import Andoid from "../images/img/android-straight.png";
+import Android from "../images/img/android-straight.png";
+import AndroidMobile from "../images/img/android-straight-iphone.png";
 
 const WhyOribarItem = ({ val }) => {
 	const { icon, iconbg, title, des, id } = val;
@@ -9,7 +10,7 @@ const WhyOribarItem = ({ val }) => {
 			{title === "no-item" ? (
 				<div className='row-span-2 row-start-3 sm:row-start-1 col-span-3 sm:col-span-1 sm:col-start-2'>
 					<div className='img'>
-						<Image src={Andoid} alt='' />
+						<Image src={AndroidMobile} alt='I phone' />
 					</div>
 				</div>
 			) : (
