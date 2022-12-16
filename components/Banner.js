@@ -5,10 +5,11 @@ import PurpleBtn from "../utils/PurpleBtn";
 import Mobile from "../images/img/two-android.png";
 import BannerStripes from "../images/img/banner-before-desktop.png";
 import BannerStripesMobile from "../images/img/banner-bg-mobile.png";
+import MobileNoShadow from "../images/img/two-android-no-shadow.png";
 
 const Banner = () => {
 	return (
-		<section className='banner min-h-screen h-[752px] max-h-[110vh] banner-bg-mobile sm:banner-bg relative'>
+		<section className='banner sm:min-h-screen h-[752px] max-h-[500px] sm:max-h-[110vh] banner-bg-mobile sm:banner-bg relative'>
 			{/* topbar */}
 			<nav className='bg-transparent py-9 sm:py-[50px] px-7 sm:px-[60px]'>
 				<Link href='/'>
@@ -44,12 +45,15 @@ const Banner = () => {
 				</div>
 			</div>
 			{/* banner poster  */}
-			<div className='absolute top-[95%] sm:top-auto left-1/2 -translate-x-1/2 sm:translate-x-0 sm:left-auto sm:-bottom-44 sm:right-24 max-w-[430px] sm:max-w-[682px] w-full sm:w-max z-20'>
+			<div className='absolute sm:right-[40px] sm:bottom-[40px] hidden sm:block h-[90%] z-20'>
 				<Image src={Mobile} alt='Two android phone' />
+			</div>
+			<div className='absolute -bottom-[70%] left-1/2 -translate-x-1/2 w-[70%] h-[90%] z-20 sm:hidden'>
+				<Image src={MobileNoShadow} alt='Two android phone' />
 			</div>
 
 			{/* banner right bottom bg  */}
-			<div className='absolute right-0 bottom-48 sm:bottom-12'>
+			<div className='absolute right-0 bottom-32 sm:bottom-12'>
 				<div className='sm:block hidden'>
 					<Image src={BannerStripes} alt='' />
 				</div>

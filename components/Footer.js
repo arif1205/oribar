@@ -11,10 +11,10 @@ const Footer = () => {
 						<h1 className='text-3xl font-poppins font-[600] text-light-purple cursor-pointer mb-7 sm:mb-11'>
 							Oribar
 						</h1>
-						<p className='text-[13px] text-white'>
-							@2022 Oribar. All Right Reserved.
-						</p>
 					</Link>
+					<p className='text-[13px] text-white'>
+						@2022 Oribar. All Right Reserved.
+					</p>
 				</div>
 				{/* links  */}
 				<div className='row-span-1 row-start-1 sm:row-span-3 sm:row-start-1 col-span-4 sm:col-span-1'>

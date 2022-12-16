@@ -51,7 +51,7 @@ const WhyOribar = () => {
 				Why keep track of your bills with Oribar?
 			</h1>
 			{/* content  */}
-			<div className='grid grid-cols-3 grid-rows-6 sm:grid-rows-2 gap-x-[100px] gap-y-9 sm:gap-y-10 items-center'>
+			<div className='grid grid-cols-3 grid-rows-6 sm:grid-rows-2 sm:gap-x-[100px] gap-y-9 sm:gap-y-10 items-center'>
 				{woi.map((v, i) => (
 					<WhyOribarItem key={v.title} val={v} />
 				))}
